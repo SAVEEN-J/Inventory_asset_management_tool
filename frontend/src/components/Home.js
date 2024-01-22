@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import MetaData from "./layouts/MetaData";
 import { getProducts } from "../actions/productActions";
 import Loader from "./layouts/Loader";
+
 import Product from "./product/Product";
 import {toast} from 'react-toastify'
 

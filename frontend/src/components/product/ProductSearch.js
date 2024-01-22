@@ -1,15 +1,10 @@
 import { Fragment, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../../actions/productActions";
-// import Loader from ".././layouts/Loader";
-// import Loader from '../layouts/Loader';
-// import MetaData from ".././layouts/MetaData";
 import Loader from "../layouts/Loader";
 import MetaData from "../layouts/MetaData";
 import Product from "./Product";
 
-
-// import Product from "../../product/Product";
 import  {toast} from 'react-toastify';
 import Pagination from 'react-js-pagination';
 import { useParams } from "react-router-dom";
